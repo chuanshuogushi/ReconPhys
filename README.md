@@ -17,7 +17,15 @@ conda activate reconphys
 pip install -r requirements.txt
 ```
 ### 2) Download ckpt and dataset
-Download checkpoint and dataset and put them in the root directory.
+Download [checkpoint](https://huggingface.co/chuanshuogushi/ReconPhys) and [dataset](https://huggingface.co/datasets/chuanshuogushi/ReconPhys_dataset) and put them in the root directory.
+
+Rename as follows:
+
+```ReconPhys/
+├── ckpt.pt
+├── datasets/
+│   └── multiphys_obj500_hash/
+```
 ### 3) Run a Demo from One Input Video
 
 This demo takes one video and outputs 4 rendered views of simulated motion.
