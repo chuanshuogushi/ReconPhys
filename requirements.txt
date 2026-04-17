@@ -1,0 +1,12 @@
+torch>=2.1
+torchvision>=0.16
+numpy>=1.23
+scipy>=1.9
+scikit-image>=0.20
+lpips>=0.1.4
+imageio>=2.28
+opencv-python>=4.8
+transformers>=4.40
+yacs>=0.1.8
+Pillow>=9.5
+pygame>=2.5

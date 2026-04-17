@@ -1,0 +1,29 @@
+DEFAULT: config/mpm_synthetic/default.yaml
+CHECKPOINTS_ROOT: checkpoints/multiscene
+
+DATA:
+  TYPE: MPM_Synthetic
+  DATA_ROOT: data/mpm_synthetic/render
+  # OBJ_NAME: duck
+  N_CAM: 10
+  N_FRAME: 1 #20
+  FRAME_ALL: 30
+  HIT_FRAME: 5
+  # H: 512
+  # W: 512
+  H: 504
+  W: 504
+  WHITE_BKG: False
+  XYZ_MIN: [0.3, 0.4, 0.2]
+  XYZ_MAX: [0.7, 0.9, 0.8]
+  BC: [[[0, 0.3, 0], [0, -1, 0]]]
+
+  DT: 0.03
+  GLOBAL_M: 1
+  GLOBAL_K: 1000
+  GLOBAL_DAMP: 0.1
+
+  EVAL_FREQ: 60
+  EVAL_FRAME: 60
+
+SEED: 42
