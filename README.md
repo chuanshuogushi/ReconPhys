@@ -1,4 +1,5 @@
 
+
 ## ReconPhys: Reconstruct Appearance and Physical Attributes from Single Video
 [Paper](https://arxiv.org/abs/2604.07882) | [Project Page](https://chuanshuogushi.github.io/ReconPhys/)
 
@@ -46,6 +47,8 @@ python control_gs_live.py \
   --params_path demos/hamburger/demo_4view_pred_params.pt
 ```
 
+The controlled rollout is saved to `result/demo.mp4`.
+
 ### 4) Test script
 
 ```bash
@@ -58,4 +61,3 @@ python test.py \
   --cfg_default default.yaml \
   --cfg_scene multiscene.yaml
 ```
-
